@@ -1,0 +1,58 @@
+/*
+    COMP125-007: Assignment 4
+    Kyle O'Keeffe
+    301156790
+    Mar. 19, 2021
+*/
+
+body{
+    background-image:url(images/squares.png);
+    background-position-x: left;
+    background-repeat: repeat-y;
+    background-size:30vw;
+}
+
+#wrapper{    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 80%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+header{
+    text-align:center;
+    background-image: radial-gradient();
+}
+
+table{
+    padding-left:1em;
+    padding-right:1em;
+    background-color:white;
+    margin-left:23vw;
+}
+
+table tr td:nth-child(3){
+    min-width:23vw;
+    font-size:smaller;
+}
+
+table tr td{
+    max-width:20em;
+}
+
+#allFilledErrorField{
+    text-align: center;
+    min-height: 1.5em;
+    margin-bottom:0;
+}
+
+footer{
+    margin-top:0.5em;
+    font-size:smaller;
+    width: 20em;
+    text-align:left;    
+}
